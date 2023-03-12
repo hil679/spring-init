@@ -1,7 +1,7 @@
 //저장소
-package hello.hellospring.repository;
+package hello.springinit.repository;
 
-import hello.hellospring.domain.Member;
+import hello.springinit.domain.Member;
 
 import java.util.List;
 import java.util.Optional;//find하는데 null이 반환될 수도 있, null처리 할 때 optional처리 선호함

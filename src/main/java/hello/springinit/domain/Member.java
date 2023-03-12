@@ -1,4 +1,4 @@
-package hello.hellospring.domain;
+package hello.springinit.domain;
 
 public class Member {
     private Long id;//시스템이 저장하는 id

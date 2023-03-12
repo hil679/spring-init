@@ -1,4 +1,4 @@
-package hello.hellospring.controller;
+package hello.springinit.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;//Model에서 이거 import 안 쓰면 에러남
