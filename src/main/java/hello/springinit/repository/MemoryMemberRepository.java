@@ -5,7 +5,6 @@ import hello.springinit.domain.Member;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
-@Repository
 public class MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;//시퀀스는 키 값을 0,1,2 이렇게 생성해줌

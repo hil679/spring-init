@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-@Service//빈 등록
+
 public class MemberService {
     private final MemberRepository memberRepository;
     public MemberService(MemberRepository memberRepository) {//레포지토리에 빈 등록 안 하면 에러
